@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A-Z FIT</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <title style="color: white;">AZ-FIT - Deals and Discounts</title>
+  </head>
+  
+  <body>
+    <div id="bodyy">
+      <div class="containerr" id="advertisement">
+        <div class="close-icon" id="closeAd"><i class="fas fa-times"></i></div>
+        <div class="headerr">
+          <h1>AZ-FIT</h1>
+          <p>Deals and Discounts</p>
+        </div>
+  
+        <div class="advertisement">
+          <!-- <img src="./download.jpg" alt="Product Image"> -->
+          <img src="./assets/Urban Grunge Sale Instagram Post.png" alt="Product Image" style="width: 10em; height: 10em;">
+  
+          <div class="text-content">
+            <h2>Summer Sale!</h2>
+            <p>Get up to 50% off on all products. Limited time offer.</p>
+            <p>Shop now and stay fit with AZ-FIT!</p>
+          </div>
+          <video src="./assets/comingsoon.mp4" loop muted autoplay style="width: 10em; height: 10em;"></video>
+  
+        </div>
+      </div>
+    </div>
+
+
+    <!-- loader -->
+    <div class="loader-container">
+      <div class="loader" id="loader">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+    </div>
+
+ <!-- marquee -->
+<marquee id="marquee"> <div class="marquee">
+  <div style="margin-top: 0.8em; font-style: oblique; ">
+  <p>
+    <span style="margin-right: 2em;"><i class="fas fa-tshirt icon"></i><i class="fas fa-tshirt icon"></i
+      ><i class="fas fa-tshirt icon"></i
+    ></span>
+    Discover our latest collection for men, women, and kids!
+    <span style="margin-right: 2em; margin-left: 2em;"
+      ><i class="fas fa-shipping-fast icon"></i
+      ><i class="fas fa-shipping-fast icon"></i
+    ></span>
+    Free express shipping on orders over $50.
+    <span style="margin-right: 2em; margin-left: 2em;"
+      ><i class="fas fa-tags icon"></i><i class="fas fa-tags icon"></i
+      ><i class="fas fa-tags icon"></i
+    ></span>
+    Limited time offer - Up to 50% off selected items.
+    <span style="margin-right: 2em; margin-left: 2em;"
+      ><i class="fas fa-gift icon"></i><i class="fas fa-gift icon"></i
+    ></span>
+    Join our VIP club for exclusive perks and rewards.
+  </p>
+
+</div>
+</marquee>
+
+    <!-- hero-section  -->
+    <section id="hero">
+      <nav class="navbar navbar-expand-lg navbar-light" id="navigation">
+        <div class="container-fluid">
+          <a class="navbar-brand color-dark" href="index.html">
+            <h2
+              style="
+                text-decoration: none;
+                color: #fff;
+                font-weight: bold;
+                font-style: italic;
+              "
+            >
+              AZ - FIT
+            </h2>
+          </a>
+          <button
+            class="navbar-toggler night"
+            id="hammenu"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">PRODUCT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Categories"> CATEGORIES </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"> CONTACT </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html"> LOGIN </a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <label id="dark-change"></label>
+              <input
+                class="form-control me-2 bg-transparent"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light me-2" type="submit">
+                Search
+              </button>
+              <button
+                type="button"
+                class="btn btn-transparent position-relative"
+              >
+                <img
+                  src="./assets/icons8-add-to-cart-60.png"
+                  style="width: 2em; height: 2em"
+                  alt=""
+                />
+                <span
+                  class="position-absolute top-5 start-85 translate-middle badge rounded-pill bg-light text-dark"
+                  id="qty"
+                >
+                  0
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero sec -->
+      <div class="hero-sec-desc">
+        <h2 class="heading1 text-center">Elevate Your Style</h2>
+        <h5 class="tagline text-center">
+          Discover Timeless Elegance in Every Stitch
+        </h5>
+        <button class="text-white hero-sec-btn">Shop Now</button>
+      </div>
+      <div id="overlay"></div>
+    </section>
+
+    <!-- product section -->
+    <section id="second">
+      <h2
+        style="
+          text-align: center;
+          font-size: 2.5rem;
+          font-weight: bold;
+          font-style: oblique;
+          margin-bottom: 1em;
+        "
+        id="product"
+      >
+        Featured Products
+      </h2>
+      <div class="container products">
+        <div class="row row-one mb-3"></div>
+      </div>
+      <div>
+        <button id="viewmore" class="view">View More</button>
+      </div>
+      <div class="container products">
+        <div class="row row-two mb-3"></div>
+      </div>
+      <div>
+        <button id="viewless" class="view">View Less</button>
+      </div>
+    </section>
+
+    <!-- card section -->
+    <section id="card">
+      <div class="container-sm mt-2" id="offercard">
+        <div class="row">
+          <div class="col">
+            <div
+              class="card mb-3"
+              style="
+                max-width: 540px;
+                box-shadow: 2px 0px 20px 2px rgba(128, 128, 128, 0.381);
+              "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <div class="cardimg">
+                    <img
+                      src="./assets/men.webp"
+                      alt="Burger"
+                      class="img-fluid rounded-start"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5
+                      class="card-title"
+                      style="
+                        font-size: 3rem;
+                        font-weight: bold;
+                        font-style: oblique;
+                      "
+                    >
+                      Mens
+                    </h5>
+                    <h6
+                      class="card-text"
+                      style="
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                        font-style: oblique;
+                      "
+                    >
+                      <span>5%</span> Off
+                    </h6>
+                    <button class="explore-btn">Explore</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card mb-3"
+              style="
+                max-width: 540px;
+                box-shadow: 2px 0px 20px 2px rgba(128, 128, 128, 0.381);
+              "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <div class="cardimg">
+                    <img
+                      src="assets/women.webp"
+                      class="img-fluid rounded-start"
+                      alt="pizza"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body" style="line-height: 0%">
+                    <h5
+                      class="card-title"
+                      style="
+                        font-size: 3rem;
+                        font-weight: bold;
+                        font-style: oblique;
+                      "
+                    >
+                      Women
+                    </h5>
+                    <h6
+                      class="card-text"
+                      style="
+                        font-size: 2.5rem;
+                        font-weight: bold;
+                        font-style: oblique;
+                      "
+                    >
+                      <span>5%</span> Off
+                    </h6>
+                    <button class="explore-btn">Explore</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- categories section -->
+    <section id="second">
+      <h2
+        style="
+          text-align: center;
+          font-size: 2.5rem;
+          font-weight: bold;
+          font-style: oblique;
+          margin-bottom: 1em;
+        "
+        id="Categories"
+      >
+        Categories
+      </h2>
+      <div class="container products">
+        <div class="row row-three mb-3"></div>
+      </div>
+      <div>
+        <button id="viewmore-2" class="view">View More</button>
+      </div>
+      <div class="container products">
+        <div class="row row-four mb-3"></div>
+      </div>
+      <div>
+        <button id="viewless-2" class="view">View Less</button>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2
+        style="
+          text-align: center;
+          font-size: 2.5rem;
+          font-weight: bold;
+          font-style: oblique;
+          margin-bottom: 1em;
+        "
+        id="contact"
+      >
+        Contact Us
+      </h2>
+      <form
+        action="https://formsubmit.co/zaighamhaider8@gmail.com"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted footer">
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+
+        <div>
+          <a href="" class="me-4 text-reset" style="font-size: 1.5em">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset" style="font-size: 1.5em">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset" style="font-size: 1.5em">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>A-Z FIT
+              </h6>
+              <p>
+                we are dedicated to providing the best quality products to our
+                customers. Our mission is to offer stylish and comfortable
+                clothing that fits your lifestyle. We believe in sustainability
+                and work hard to ensure our products are eco-friendly.
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Sections</h6>
+              <p>
+                <a href="index.html" class="text-reset">HOME</a>
+              </p>
+              <p>
+                <a href="#product" class="text-reset">PRODUCT</a>
+              </p>
+              <p>
+                <a href="#Categories" class="text-reset">CATEGORIES</a>
+              </p>
+              <p>
+                <a href="#contact" class="text-reset">CONTACT</a>
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Help center</h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> Karachi,Pakistan</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                az@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="#!">A-Z FIT</a>
+      </div>
+    </footer>
+
+    <!-- jquery link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- gsap link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>

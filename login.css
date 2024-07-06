@@ -1,0 +1,123 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#navigation {
+    padding: 2% 2% !important;
+  }
+  .nav-log{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  .nav-log h4 a{
+    color: black !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+  }
+ /* login start */
+ #login-outer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80vh;
+     width: 100%;
+ }
+ .loginform {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 1em;
+     box-shadow: 0px 0px 20px 2px gray;
+     height: 25em;
+     width: 25em;
+     border-radius: 16px;
+     /* padding: % 0%; */
+ }
+
+ .loginform input {
+     height: 3em;
+     width: 22em;
+     border-radius: 8px;
+     border: 1px solid gray;
+ }
+ @media(max-width:560px) {
+    #login-outer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width: 100%;
+    }
+ }
+ @media(max-width:420px) {
+    .loginform {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 1em;
+         box-shadow: 0px 0px 20px 2px gray;
+         height: 25em;
+         width: 22em;
+         border-radius: 16px;
+         /* padding: 5% 0%; */
+
+     }
+
+     .loginform input {
+         height: 3em;
+         width: 19em;
+         border-radius: 8px;
+         border: 1px solid gray;
+     }
+    
+ }
+ @media(max-width:370px) {
+    .loginform {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        box-shadow: 0px 0px 20px 2px gray;
+        height: 25em;
+        width: 18em;
+        border-radius: 16px;
+        /* padding: % 0%; */
+
+    }
+
+    .loginform input {
+        height: 3em;
+        width: 16em;
+        border-radius: 8px;
+        border: 1px solid gray;
+    }
+}
+
+ #login-btn {
+    height: 2.5em;
+    width: 8em;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    transition: 0.6s;
+    margin-top: 0%;
+ }
+
+ #login-btn:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+ }
+
+ .error {
+     color: red !important;
+     padding: 0%;
+     margin: 0%;
+ }
